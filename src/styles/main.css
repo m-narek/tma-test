@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Movavi';
+  src: url('@/assets/fonts/movavi-grotesque.black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('@/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 14px;
+  }
+}
+*::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a7defd; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: none; /* creates padding around scroll thumb */
+}
